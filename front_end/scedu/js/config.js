@@ -1,0 +1,1 @@
+var SA_server_URL="http://40.73.2.50:8106/sa?project=fujie"

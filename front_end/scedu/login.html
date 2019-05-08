@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit"><!--用在360中-->
+    <meta name="force-rendering" content="webkit"><!--用在其它-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>    
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <title>21教育</title>
+    <meta name="keyword" content="">
+    <meta name="description" content="">
+    <link rel="dns-prefetch" href="//www.21cnjy.com">
+    <link rel="dns-prefetch" href="//www.jbzyk.com">
+    <link rel="dns-prefetch" href="//news.jbzyk.com">
+    <link rel="dns-prefetch" href="//tikupic.21cnjy.com">
+    <link rel="dns-prefetch" href="http://www.kt5u.com">
+    <link rel="icon" href="//www.21cnjy.com/favicon.ico" mce_href="//www.21cnjy.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/layer.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/vue.js"></script>
+    <script src="./js/vue-resource.min.js"></script>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script>
+    (function(para) {
+      var p = para.sdk_url, n = para.name, w = window, d = document, s = 'script',x = null,y = null;
+      if(typeof(w['sensorsDataAnalytic201505']) !== 'undefined') {
+          return false;
+      }
+      w['sensorsDataAnalytic201505'] = n;
+      w[n] = w[n] || function(a) {return function() {(w[n]._q = w[n]._q || []).push([a, arguments]);}};
+      var ifs = ['track','quick','register','registerPage','registerOnce','clearAllRegister','trackSignup', 'trackAbtest', 'setProfile','setOnceProfile','appendProfile', 'incrementProfile', 'deleteProfile', 'unsetProfile', 'identify','login','logout','trackLink','clearAllRegister'];
+      for (var i = 0; i < ifs.length; i++) {
+        w[n][ifs[i]] = w[n].call(null, ifs[i]);
+      }
+      if (!w[n]._t) {
+        x = d.createElement(s), y = d.getElementsByTagName(s)[0];
+        x.async = 1;
+        x.src = p;
+        y.parentNode.insertBefore(x, y);
+        w[n].para = para;
+      }
+    })({
+          sdk_url: './js/sensorsdata.min.js',
+          name: 'sensors',
+          //server_url:'http://10.19.197.78:8106/sa?project=fujie',
+          server_url:'http://40.73.2.50:8106/sa?project=fujie',
+          //heatmap_url神策分析中点击分析及触达分析功能代码，代码生成工具会自动生成。如果神策代码中 `sensorsdata.min.js` 版本是 1.9.1 及以上版本，这个参数必须配置，低于此版本不需要配置。
+          heatmap_url: "./js/heatmap.min.js",
+          //web_url 神策分析中点击分析及触达分析功能会用到此地址，代码生成工具会自动生成。如果神策后台版本及 `sensorsdata.min.js` 均是 1.10 及以上版本，这个参数不需要配置。
+          web_url:"http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f",
+          //referer_domain:"www.baidu.com",
+          heatmap: {
+             //是否开启点击图，默认 default 表示开启，自动采集 $WebClick 事件，可以设置 'not_collect' 表示关闭
+             //需要 JSSDK 版本号大于 1.7
+             clickmap:'default',
+             //是否开启触达注意力图，默认 default 表示开启，自动采集 $WebStay 事件，可以设置 'not_collect' 表示关闭
+             //需要 JSSDK 版本号大于 1.9.1
+             scroll_notice_map:'not_collect'
+          },
+          use_app_track: true,
+          is_track_latest: {
+            //是否采集$latest_utm最近一次广告系列相关参数，默认值true
+            utm:true,
+            //是否采集$latest_traffic_source_type最近一次流量来源类型，默认值true
+            traffic_source_type:true,
+            //是否采集$latest_search_keyword最近一次搜索引擎关键字，默认值true
+            search_keyword:false,
+            //是否采集$latest_referrer最近一次前向地址，默认值true
+            referrer:false,
+            //是否采集$latest_referrer_host最近一次前向地址，默认值true
+            referrer_host:false,
+            //是否采集$latest_landing_page最近一次落地页地址，默认值false
+            landing_page:false,
+          },
+         scrollmap:{
+             collect_url: function(){
+        //如果只采集首页
+              if(location.href === 'xxx.com/index.html' || location.href === 'xxx.com/'){
+                  return true;
+            }
+          }},
+          send_type:'ajax'
+        });
+        sensors.quick('autoTrack'); //神策系统必须是1.4最新版及以上
+    </script>
+
+    <link rel="stylesheet" href="./css/login.css"></head>
+<body>
+
+
+<div class="c-head">
+    <div class="g-cwd cfx">
+        <div class="logo">
+            <a href="/scedu/index.html"><img src="./images/logo.jpg" height="30" width="30" alt="sc教育logo"></a>
+            <span>登录</span>
+        </div>
+        <div class="menu">
+            <span>旗下产品<i class="cu-arrow-down"></i></span>
+            <ul class="menu-list">
+                <li><a href="//www.21cnjy.com/zhitongche/" target="_blank">校网通</a></li>
+                <li><a href="//zujuan.21cnjy.com/" target="_blank">在线组卷</a></li>
+                <li><a href="//www.jbzyk.com/" target="_blank">校本资源库</a></li>
+                <li><a href="//kt5u.21cnjy.com/" target="_blank">课堂无忧</a></li>
+                <li><a href="//tiku.21cnjy.com/" target="_blank">在线题库</a></li>
+                <li><a href="//www.21cnjy.com/video.php" target="_blank">名师讲堂</a></li>
+                <li><a href="//www.21cnjy.com/productshow/index.php?prod=school" target="_blank">数字化校园</a></li>
+                <li><a href="//www.21cnjy.com/productshow/index.php?prod=yun" target="_blank">区域云平台</a></li>
+                <li><a href="//www.21cnjy.com/productshow/app/" target="_blank">二一教育APP</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="g-cw1 reg-wrap">
+    <h2>登录</h2>
+</div>
+<script type="text/javascript">
+  window.onload=function(){
+    sensors.identify()
+  }
+</script>
+
+<div id="login_form" class="form-wrap reg-bd">
+	<form class="reg-form" >
+            <div class="form-line">
+                <label><span>*</span>手机号码：</label>
+                <div class="set-input">
+                    <label class="ie-placeholder" for="mobile">请输入手机号码</label>
+                    <input type="text" name="mobile" id="mobile" placeholder="请输入手机号码"  >
+                    
+                </div>
+            </div>
+            <div class="form-line">
+                <label><span>*</span>输入密码：</label>
+                <div class="set-input">
+                    <label class="ie-placeholder" for="password1">请输入密码</label>
+                    <input type="password" name="password" id="password" placeholder="请输入密码">
+                </div>
+            </div>
+  
+            <div id="login_button" class="form-btn cfx">
+                <input type="hidden" name="identity" value="<%= identity %>">
+                <input type="hidden" name="type" value="mobile">
+                <!--<a href="javascript:;" class="return-step1">上一步</a>-->
+                <button v-on:click="user_login" class="reg-btn" type="submit">登录</button>
+            </div>    
+           
+        </form>       
+    </div>
+<script type="text/javascript">
+    var vm = new Vue({
+        el:"#login_button",
+        data:{username:"手机号码：",password:"输入密码："},
+        methods:{
+            user_login:function(){
+                var username=document.getElementById("mobile").value
+                var password=document.getElementById("password").value
+                this.$http.post('/edu/userLogin',{params:{"username":username,"password":password}}).then(function(res){
+                    sensors.login(res.body.login_id)
+                    window.location.href="/scedu/index.html"   
+                },function(res){
+                    alert("result wrong")
+                    console.log(res.body.result);
+                });
+            }
+        }
+    });
+</script>
+</body>
+
+</html>
