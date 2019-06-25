@@ -1,0 +1,452 @@
+2019-06-25 16:10:54 [INF] sdt_main.go:19 | all servers started
+2019-06-25 16:10:54 [DBG] dami_server.go:16 | start dami server
+2019-06-25 16:10:54 [DBG] ad_server.go:16 | start ad server
+2019-06-25 16:10:54 [INF] scedu_server.go:11 | scedu main's running
+2019-06-25 16:10:54 [INF] my_http_server.go:59 | start http server...
+2019-06-25 16:10:54 [INF] sa_starter.go:47 | starting sa sdk
+2019-06-25 16:10:54 [DBG] ad_server.go:21 | ready to listen on 9090
+2019-06-25 16:10:54 [ERR] sa_starter.go:61 | error in initiating sensors analystic...error:open ./logAgent/my_log_agent_log.log.2019-06-25.16: no such file or directory
+2019-06-25 16:10:54 [DBG] my_http_server.go:50 | register all the services...
+2019-06-25 16:10:54 [DBG] my_login_service.go:88 | register login services...
+2019-06-25 16:10:54 [DBG] my_login_service.go:91 | login services registered.
+2019-06-25 16:10:54 [DBG] my_http_server.go:67 | ready to listen on 8080
+2019-06-25 16:10:54 [DBG] dami_server.go:21 | ready to listen on 10000
+2019-06-25 16:11:13 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:11:13 [DBG] my_login_service.go:61 | all params:map[params:map[password:1234567890 username:4567890]]
+2019-06-25 16:11:13 [DBG] my_login_service.go:63 | params from login:4567890
+2019-06-25 16:11:13 [DBG] my_login_service.go:65 | params from login:1234567890
+2019-06-25 16:11:13 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:11:13 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:11:13 [INF] user_manager.go:51 | initing users info..
+2019-06-25 16:11:13 [ERR] user_manager.go:59 | too many errors in creating a simple file, pelase crash your computer,error:open ./data/users.d: no such file or directory
+2019-06-25 16:11:13 [INF] user_manager.go:88 | try to login for user:4567890 with pwd:1234567890,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:11:13 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:11:13 [DBG] my_login_service.go:61 | all params:map[params:map[password:1234567890 username:4567890]]
+2019-06-25 16:11:13 [DBG] my_login_service.go:63 | params from login:4567890
+2019-06-25 16:11:13 [DBG] my_login_service.go:65 | params from login:1234567890
+2019-06-25 16:11:13 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:11:13 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:11:13 [INF] user_manager.go:88 | try to login for user:4567890 with pwd:1234567890,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:16:58 [INF] sdt_main.go:19 | all servers started
+2019-06-25 16:16:58 [INF] scedu_server.go:11 | scedu main's running
+2019-06-25 16:16:58 [INF] my_http_server.go:59 | start http server...
+2019-06-25 16:16:58 [INF] sa_starter.go:47 | starting sa sdk
+2019-06-25 16:16:58 [DBG] ad_server.go:16 | start ad server
+2019-06-25 16:16:58 [DBG] ad_server.go:21 | ready to listen on 9090
+2019-06-25 16:16:58 [DBG] dami_server.go:16 | start dami server
+2019-06-25 16:16:58 [ERR] sa_starter.go:61 | error in initiating sensors analystic...error:open ./logAgent/my_log_agent_log.log.2019-06-25.16: no such file or directory
+2019-06-25 16:16:58 [DBG] my_http_server.go:50 | register all the services...
+2019-06-25 16:16:58 [DBG] my_login_service.go:88 | register login services...
+2019-06-25 16:16:58 [DBG] my_login_service.go:91 | login services registered.
+2019-06-25 16:16:58 [DBG] dami_server.go:21 | ready to listen on 10000
+2019-06-25 16:16:58 [DBG] my_http_server.go:67 | ready to listen on 8080
+2019-06-25 16:17:20 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:17:20 [DBG] my_login_service.go:61 | all params:map[params:map[password:1234567890 username:newuser004]]
+2019-06-25 16:17:20 [DBG] my_login_service.go:63 | params from login:newuser004
+2019-06-25 16:17:20 [DBG] my_login_service.go:65 | params from login:1234567890
+2019-06-25 16:17:20 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:17:20 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:17:20 [INF] user_manager.go:51 | initing users info..
+2019-06-25 16:17:20 [ERR] user_manager.go:59 | too many errors in creating a simple file, pelase crash your computer,error:open ./data/users.d: no such file or directory
+2019-06-25 16:17:20 [INF] user_manager.go:88 | try to login for user:newuser004 with pwd:1234567890,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:17:20 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:17:20 [DBG] my_login_service.go:61 | all params:map[params:map[password:1234567890 username:newuser004]]
+2019-06-25 16:17:20 [DBG] my_login_service.go:63 | params from login:newuser004
+2019-06-25 16:17:20 [DBG] my_login_service.go:65 | params from login:1234567890
+2019-06-25 16:17:20 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:17:20 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:17:20 [INF] user_manager.go:88 | try to login for user:newuser004 with pwd:1234567890,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:17:20 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:17:20 [DBG] my_login_service.go:61 | all params:map[params:map[password:1234567890 username:newuser004]]
+2019-06-25 16:17:20 [DBG] my_login_service.go:63 | params from login:newuser004
+2019-06-25 16:17:20 [DBG] my_login_service.go:65 | params from login:1234567890
+2019-06-25 16:17:20 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:17:20 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:17:20 [INF] user_manager.go:88 | try to login for user:newuser004 with pwd:1234567890,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:21:25 [INF] sdt_main.go:19 | all servers started
+2019-06-25 16:21:25 [DBG] dami_server.go:16 | start dami server
+2019-06-25 16:21:25 [INF] scedu_server.go:11 | scedu main's running
+2019-06-25 16:21:25 [INF] my_http_server.go:59 | start http server...
+2019-06-25 16:21:25 [INF] sa_starter.go:47 | starting sa sdk
+2019-06-25 16:21:25 [DBG] ad_server.go:16 | start ad server
+2019-06-25 16:21:25 [ERR] sa_starter.go:61 | error in initiating sensors analystic...error:open ./logAgent/my_log_agent_log.log.2019-06-25.16: no such file or directory
+2019-06-25 16:21:25 [DBG] my_http_server.go:50 | register all the services...
+2019-06-25 16:21:25 [DBG] my_login_service.go:88 | register login services...
+2019-06-25 16:21:25 [DBG] ad_server.go:21 | ready to listen on 9090
+2019-06-25 16:21:25 [DBG] my_login_service.go:91 | login services registered.
+2019-06-25 16:21:25 [DBG] my_http_server.go:67 | ready to listen on 8080
+2019-06-25 16:21:25 [DBG] dami_server.go:21 | ready to listen on 10000
+2019-06-25 16:21:35 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:21:35 [DBG] my_login_service.go:61 | all params:map[params:map[password:234234 username:567890987]]
+2019-06-25 16:21:35 [DBG] my_login_service.go:63 | params from login:567890987
+2019-06-25 16:21:35 [DBG] my_login_service.go:65 | params from login:234234
+2019-06-25 16:21:35 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:21:35 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:21:35 [INF] user_manager.go:51 | initing users info..
+2019-06-25 16:21:35 [ERR] user_manager.go:59 | too many errors in creating a simple file, pelase crash your computer,error:open ./data/users.d: no such file or directory
+2019-06-25 16:21:35 [INF] user_manager.go:88 | try to login for user:567890987 with pwd:234234,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:21:35 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:21:35 [DBG] my_login_service.go:61 | all params:map[params:map[password:234234 username:567890987]]
+2019-06-25 16:21:35 [DBG] my_login_service.go:63 | params from login:567890987
+2019-06-25 16:21:35 [DBG] my_login_service.go:65 | params from login:234234
+2019-06-25 16:21:35 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:21:35 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:21:35 [INF] user_manager.go:88 | try to login for user:567890987 with pwd:234234,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:24:07 [INF] sdt_main.go:19 | all servers started
+2019-06-25 16:24:07 [DBG] dami_server.go:16 | start dami server
+2019-06-25 16:24:07 [DBG] ad_server.go:16 | start ad server
+2019-06-25 16:24:07 [INF] scedu_server.go:11 | scedu main's running
+2019-06-25 16:24:07 [INF] my_http_server.go:59 | start http server...
+2019-06-25 16:24:07 [INF] sa_starter.go:47 | starting sa sdk
+2019-06-25 16:24:07 [DBG] ad_server.go:21 | ready to listen on 9090
+2019-06-25 16:24:07 [DBG] dami_server.go:21 | ready to listen on 10000
+2019-06-25 16:24:07 [ERR] sa_starter.go:61 | error in initiating sensors analystic...error:open ./logAgent/my_log_agent_log.log.2019-06-25.16: no such file or directory
+2019-06-25 16:24:07 [DBG] my_http_server.go:50 | register all the services...
+2019-06-25 16:24:07 [DBG] my_login_service.go:88 | register login services...
+2019-06-25 16:24:07 [DBG] my_login_service.go:91 | login services registered.
+2019-06-25 16:24:07 [DBG] my_http_server.go:67 | ready to listen on 8080
+2019-06-25 16:24:16 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:24:16 [DBG] my_login_service.go:61 | all params:map[params:map[password:2r323r2 username:3r2r2]]
+2019-06-25 16:24:16 [DBG] my_login_service.go:63 | params from login:3r2r2
+2019-06-25 16:24:16 [DBG] my_login_service.go:65 | params from login:2r323r2
+2019-06-25 16:24:16 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:24:16 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:24:16 [INF] user_manager.go:51 | initing users info..
+2019-06-25 16:24:16 [ERR] user_manager.go:59 | too many errors in creating a simple file, pelase crash your computer,error:open ./data/users.d: no such file or directory
+2019-06-25 16:24:16 [INF] user_manager.go:88 | try to login for user:3r2r2 with pwd:2r323r2,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:24:16 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:24:16 [DBG] my_login_service.go:61 | all params:map[params:map[password:2r323r2 username:3r2r2]]
+2019-06-25 16:24:16 [DBG] my_login_service.go:63 | params from login:3r2r2
+2019-06-25 16:24:16 [DBG] my_login_service.go:65 | params from login:2r323r2
+2019-06-25 16:24:16 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:24:16 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:24:16 [INF] user_manager.go:88 | try to login for user:3r2r2 with pwd:2r323r2,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:24:16 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:24:16 [DBG] my_login_service.go:61 | all params:map[params:map[password:2r323r2 username:3r2r2]]
+2019-06-25 16:24:16 [DBG] my_login_service.go:63 | params from login:3r2r2
+2019-06-25 16:24:16 [DBG] my_login_service.go:65 | params from login:2r323r2
+2019-06-25 16:24:16 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:24:16 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:24:16 [INF] user_manager.go:88 | try to login for user:3r2r2 with pwd:2r323r2,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:27:18 [INF] sdt_main.go:19 | all servers started
+2019-06-25 16:27:18 [DBG] dami_server.go:16 | start dami server
+2019-06-25 16:27:18 [DBG] ad_server.go:16 | start ad server
+2019-06-25 16:27:18 [INF] scedu_server.go:11 | scedu main's running
+2019-06-25 16:27:18 [INF] my_http_server.go:59 | start http server...
+2019-06-25 16:27:18 [INF] sa_starter.go:47 | starting sa sdk
+2019-06-25 16:27:18 [DBG] dami_server.go:21 | ready to listen on 10000
+2019-06-25 16:27:18 [DBG] ad_server.go:21 | ready to listen on 9090
+2019-06-25 16:27:18 [ERR] sa_starter.go:61 | error in initiating sensors analystic...error:open ./logAgent/my_log_agent_log.log.2019-06-25.16: no such file or directory
+2019-06-25 16:27:18 [DBG] my_http_server.go:50 | register all the services...
+2019-06-25 16:27:18 [DBG] my_login_service.go:88 | register login services...
+2019-06-25 16:27:18 [DBG] my_login_service.go:91 | login services registered.
+2019-06-25 16:27:18 [DBG] my_http_server.go:67 | ready to listen on 8080
+2019-06-25 16:27:26 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:27:26 [DBG] my_login_service.go:61 | all params:map[params:map[password:123456789 username:newuser182983]]
+2019-06-25 16:27:26 [DBG] my_login_service.go:63 | params from login:newuser182983
+2019-06-25 16:27:26 [DBG] my_login_service.go:65 | params from login:123456789
+2019-06-25 16:27:26 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:27:26 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:27:26 [INF] user_manager.go:51 | initing users info..
+2019-06-25 16:27:26 [ERR] user_manager.go:59 | too many errors in creating a simple file, pelase crash your computer,error:open ./data/users.d: no such file or directory
+2019-06-25 16:27:26 [INF] user_manager.go:88 | try to login for user:newuser182983 with pwd:123456789,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:27:26 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:27:26 [DBG] my_login_service.go:61 | all params:map[params:map[password:123456789 username:newuser182983]]
+2019-06-25 16:27:26 [DBG] my_login_service.go:63 | params from login:newuser182983
+2019-06-25 16:27:26 [DBG] my_login_service.go:65 | params from login:123456789
+2019-06-25 16:27:26 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:27:26 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:27:26 [INF] user_manager.go:88 | try to login for user:newuser182983 with pwd:123456789,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:27:26 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:27:26 [DBG] my_login_service.go:61 | all params:map[params:map[password:123456789 username:newuser182983]]
+2019-06-25 16:27:26 [DBG] my_login_service.go:63 | params from login:newuser182983
+2019-06-25 16:27:26 [DBG] my_login_service.go:65 | params from login:123456789
+2019-06-25 16:27:26 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:27:26 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:27:26 [INF] user_manager.go:88 | try to login for user:newuser182983 with pwd:123456789,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:33:10 [INF] sdt_main.go:19 | all servers started
+2019-06-25 16:33:10 [DBG] dami_server.go:16 | start dami server
+2019-06-25 16:33:10 [INF] scedu_server.go:11 | scedu main's running
+2019-06-25 16:33:10 [INF] my_http_server.go:59 | start http server...
+2019-06-25 16:33:10 [DBG] ad_server.go:16 | start ad server
+2019-06-25 16:33:10 [INF] sa_starter.go:47 | starting sa sdk
+2019-06-25 16:33:10 [DBG] dami_server.go:21 | ready to listen on 10000
+2019-06-25 16:33:10 [DBG] ad_server.go:21 | ready to listen on 9090
+2019-06-25 16:33:10 [ERR] sa_starter.go:61 | error in initiating sensors analystic...error:open ./logAgent/my_log_agent_log.log.2019-06-25.16: no such file or directory
+2019-06-25 16:33:10 [DBG] my_http_server.go:50 | register all the services...
+2019-06-25 16:33:10 [DBG] my_login_service.go:88 | register login services...
+2019-06-25 16:33:10 [DBG] my_login_service.go:91 | login services registered.
+2019-06-25 16:33:10 [DBG] my_http_server.go:67 | ready to listen on 8080
+2019-06-25 16:33:20 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:33:20 [DBG] my_login_service.go:61 | all params:map[params:map[password:2r323r username:9u43ri]]
+2019-06-25 16:33:20 [DBG] my_login_service.go:63 | params from login:9u43ri
+2019-06-25 16:33:20 [DBG] my_login_service.go:65 | params from login:2r323r
+2019-06-25 16:33:20 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:33:20 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:33:20 [INF] user_manager.go:51 | initing users info..
+2019-06-25 16:33:20 [ERR] user_manager.go:59 | too many errors in creating a simple file, pelase crash your computer,error:open ./data/users.d: no such file or directory
+2019-06-25 16:33:20 [INF] user_manager.go:88 | try to login for user:9u43ri with pwd:2r323r,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:33:20 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:33:20 [DBG] my_login_service.go:61 | all params:map[params:map[password:2r323r username:9u43ri]]
+2019-06-25 16:33:20 [DBG] my_login_service.go:63 | params from login:9u43ri
+2019-06-25 16:33:20 [DBG] my_login_service.go:65 | params from login:2r323r
+2019-06-25 16:33:20 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:33:20 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:33:20 [INF] user_manager.go:88 | try to login for user:9u43ri with pwd:2r323r,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:33:20 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:33:20 [DBG] my_login_service.go:61 | all params:map[params:map[password:2r323r username:9u43ri]]
+2019-06-25 16:33:20 [DBG] my_login_service.go:63 | params from login:9u43ri
+2019-06-25 16:33:20 [DBG] my_login_service.go:65 | params from login:2r323r
+2019-06-25 16:33:20 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:33:20 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:33:20 [INF] user_manager.go:88 | try to login for user:9u43ri with pwd:2r323r,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:35:35 [INF] sdt_main.go:19 | all servers started
+2019-06-25 16:35:35 [DBG] dami_server.go:16 | start dami server
+2019-06-25 16:35:35 [INF] scedu_server.go:11 | scedu main's running
+2019-06-25 16:35:35 [INF] my_http_server.go:59 | start http server...
+2019-06-25 16:35:35 [INF] sa_starter.go:47 | starting sa sdk
+2019-06-25 16:35:35 [DBG] ad_server.go:16 | start ad server
+2019-06-25 16:35:35 [DBG] ad_server.go:21 | ready to listen on 9090
+2019-06-25 16:35:35 [DBG] dami_server.go:21 | ready to listen on 10000
+2019-06-25 16:35:35 [ERR] sa_starter.go:61 | error in initiating sensors analystic...error:open ./logAgent/my_log_agent_log.log.2019-06-25.16: no such file or directory
+2019-06-25 16:35:35 [DBG] my_http_server.go:50 | register all the services...
+2019-06-25 16:35:35 [DBG] my_login_service.go:88 | register login services...
+2019-06-25 16:35:35 [DBG] my_login_service.go:91 | login services registered.
+2019-06-25 16:35:35 [DBG] my_http_server.go:67 | ready to listen on 8080
+2019-06-25 16:35:41 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:35:41 [DBG] my_login_service.go:61 | all params:map[params:map[password:23423423 username:23r23]]
+2019-06-25 16:35:41 [DBG] my_login_service.go:63 | params from login:23r23
+2019-06-25 16:35:41 [DBG] my_login_service.go:65 | params from login:23423423
+2019-06-25 16:35:41 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:35:41 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:35:41 [INF] user_manager.go:51 | initing users info..
+2019-06-25 16:35:41 [INF] user_manager.go:88 | try to login for user:23r23 with pwd:23423423,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:35:41 [INF] sa_starter.go:47 | starting sa sdk
+2019-06-25 16:35:41 [ERR] sa_starter.go:61 | error in initiating sensors analystic...error:open ./logAgent/my_log_agent_log.log.2019-06-25.16: no such file or directory
+2019-06-25 16:35:41 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:35:41 [DBG] my_login_service.go:61 | all params:map[params:map[password:23423423 username:23r23]]
+2019-06-25 16:35:41 [DBG] my_login_service.go:63 | params from login:23r23
+2019-06-25 16:35:41 [DBG] my_login_service.go:65 | params from login:23423423
+2019-06-25 16:35:41 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:35:41 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:35:41 [INF] user_manager.go:88 | try to login for user:23r23 with pwd:23423423,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:35:41 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 16:35:41 [DBG] my_login_service.go:61 | all params:map[params:map[password:23423423 username:23r23]]
+2019-06-25 16:35:41 [DBG] my_login_service.go:63 | params from login:23r23
+2019-06-25 16:35:41 [DBG] my_login_service.go:65 | params from login:23423423
+2019-06-25 16:35:41 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 16:35:41 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 16:35:41 [INF] user_manager.go:88 | try to login for user:23r23 with pwd:23423423,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 17:23:29 [DBG] sdt_main.go:46 | loading global config of ./etc/sd_config.json
+2019-06-25 17:23:29 [ERR] sdt_main.go:57 | error in parsing config json,invalid character '}' looking for beginning of object key string
+2019-06-25 17:23:29 [ERR] sdt_main.go:19 | error in initing my little poor server, check check check, or call me
+2019-06-25 17:23:29 [ERR] sdt_main.go:20 | exit with error
+2019-06-25 17:24:43 [DBG] sdt_main.go:46 | loading global config of ./etc/sd_config.json
+2019-06-25 17:24:43 [INF] sdt_main.go:60 | config loading successfully
+2019-06-25 17:24:43 [INF] sdt_main.go:29 | all servers started
+2019-06-25 17:24:43 [DBG] ad_server.go:16 | start ad server
+2019-06-25 17:24:43 [DBG] dami_server.go:16 | start dami server
+2019-06-25 17:28:41 [DBG] sdt_main.go:46 | loading global config of ./etc/sd_config.json
+2019-06-25 17:28:41 [INF] sdt_main.go:60 | config loading successfully
+2019-06-25 17:28:41 [INF] sdt_main.go:29 | all servers started
+2019-06-25 17:28:41 [INF] scedu_server.go:11 | scedu main's running
+2019-06-25 17:28:41 [INF] my_http_server.go:59 | start http server...
+2019-06-25 17:28:41 [INF] sa_starter.go:48 | starting sa sdk
+2019-06-25 17:28:41 [DBG] ad_server.go:16 | start ad server
+2019-06-25 17:28:41 [INF] sa_starter.go:101 | super propeties updated
+2019-06-25 17:30:01 [DBG] sdt_main.go:46 | loading global config of ./etc/sd_config.json
+2019-06-25 17:30:01 [INF] sdt_main.go:60 | config loading successfully
+2019-06-25 17:30:01 [INF] sdt_main.go:29 | all servers started
+2019-06-25 17:30:01 [INF] scedu_server.go:11 | scedu main's running
+2019-06-25 17:30:01 [INF] my_http_server.go:59 | start http server...
+2019-06-25 17:30:01 [INF] sa_starter.go:48 | starting sa sdk
+2019-06-25 17:30:01 [DBG] ad_server.go:16 | start ad server
+2019-06-25 17:30:01 [INF] sa_starter.go:101 | super propeties updated
+2019-06-25 17:30:01 [DBG] sa_starter.go:69 | sa initilization finished with url:http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f finished
+2019-06-25 17:30:01 [DBG] my_http_server.go:50 | register all the services...
+2019-06-25 17:30:01 [DBG] my_login_service.go:88 | register login services...
+2019-06-25 17:30:01 [DBG] my_login_service.go:91 | login services registered.
+2019-06-25 17:30:01 [DBG] my_http_server.go:71 | ready to listen on 
+2019-06-25 17:32:35 [DBG] sdt_main.go:47 | loading global config of ./etc/sd_config.json
+2019-06-25 17:32:35 [INF] sdt_main.go:61 | config loading successfully
+2019-06-25 17:32:35 [INF] sdt_main.go:23 | map[ad_front_root:/toutiao/ ad_server_port:9090 ad_service_root:/ad/ admi_front_root:/dami/ admi_service_root:/app/ dami_server_port:10010 logagent_path:./logAgent remote_sensors:http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f scedu_front_root:/scedu/ scedu_service_root:/scd/ scedu_site_port:8080 sensors_project:fujie user_file_path:./user.d]
+2019-06-25 17:32:35 [INF] sdt_main.go:30 | all servers started
+2019-06-25 17:32:35 [INF] scedu_server.go:11 | scedu main's running
+2019-06-25 17:32:35 [INF] my_http_server.go:59 | start http server...
+2019-06-25 17:32:35 [INF] sa_starter.go:48 | starting sa sdk
+2019-06-25 17:32:35 [DBG] ad_server.go:16 | start ad server
+2019-06-25 17:32:35 [INF] dami_server.go:16 | start dami server
+2019-06-25 17:32:35 [INF] dami_server.go:19 | dami service root:
+2019-06-25 17:33:45 [DBG] sdt_main.go:47 | loading global config of ./etc/sd_config.json
+2019-06-25 17:33:45 [INF] sdt_main.go:61 | config loading successfully
+2019-06-25 17:33:45 [INF] sdt_main.go:23 | map[ad_front_root:/toutiao/ ad_server_port:9090 ad_service_root:/ad/ dami_front_root:/dami/ dami_server_port:10010 dami_service_root:/app/ logagent_path:./logAgent remote_sensors:http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f scedu_front_root:/scedu/ scedu_service_root:/scd/ scedu_site_port:8080 sensors_project:fujie user_file_path:./user.d]
+2019-06-25 17:33:45 [INF] sdt_main.go:30 | all servers started
+2019-06-25 17:33:45 [INF] scedu_server.go:11 | scedu main's running
+2019-06-25 17:33:45 [INF] my_http_server.go:59 | start http server...
+2019-06-25 17:33:45 [INF] sa_starter.go:48 | starting sa sdk
+2019-06-25 17:33:45 [DBG] ad_server.go:16 | start ad server
+2019-06-25 17:33:45 [INF] dami_server.go:16 | start dami server
+2019-06-25 17:34:18 [DBG] sdt_main.go:47 | loading global config of ./etc/sd_config.json
+2019-06-25 17:34:18 [INF] sdt_main.go:61 | config loading successfully
+2019-06-25 17:34:18 [INF] sdt_main.go:23 | map[ad_front_root:/toutiao/ ad_server_port:9090 ad_service_root:/ad/ dami_front_root:/dami/ dami_server_port:10010 dami_service_root:/app/ logagent_path:./logAgent remote_sensors:http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f scedu_front_root:/scedu/ scedu_service_root:/scd/ scedu_site_port:8080 sensors_project:fujie user_file_path:./user.d]
+2019-06-25 17:34:18 [INF] sdt_main.go:30 | all servers started
+2019-06-25 17:34:18 [DBG] ad_server.go:16 | start ad server
+2019-06-25 17:34:18 [INF] dami_server.go:16 | start dami server
+2019-06-25 17:34:18 [INF] dami_server.go:19 | dami service root:/app/
+2019-06-25 17:34:18 [DBG] dami_server.go:25 | ready to listen on 10010
+2019-06-25 17:34:18 [INF] scedu_server.go:11 | scedu main's running
+2019-06-25 17:34:18 [INF] my_http_server.go:59 | start http server...
+2019-06-25 17:34:18 [INF] sa_starter.go:48 | starting sa sdk
+2019-06-25 17:34:18 [DBG] ad_server.go:24 | ready to listen on 9090
+2019-06-25 17:34:18 [INF] sa_starter.go:101 | super propeties updated
+2019-06-25 17:34:18 [DBG] sa_starter.go:69 | sa initilization finished with url:http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f finished
+2019-06-25 17:34:18 [DBG] my_http_server.go:50 | register all the services...
+2019-06-25 17:34:18 [DBG] my_login_service.go:88 | register login services...
+2019-06-25 17:34:18 [DBG] my_login_service.go:91 | login services registered.
+2019-06-25 17:34:18 [DBG] my_http_server.go:71 | ready to listen on 
+2019-06-25 17:40:45 [DBG] sdt_main.go:47 | loading global config of ./etc/sd_config.json
+2019-06-25 17:40:45 [INF] sdt_main.go:61 | config loading successfully
+2019-06-25 17:40:45 [INF] sdt_main.go:23 | map[ad_front_root:/toutiao/ ad_server_port:9090 ad_service_root:/ad/ dami_front_root:/dami/ dami_server_port:10010 dami_service_root:/app/ logagent_path:./logAgent remote_sensors:http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f scedu_front_root:/scedu/ scedu_service_root:/scd/ scedu_site_port:8080 sensors_project:fujie user_file_path:./user.d]
+2019-06-25 17:40:45 [INF] sdt_main.go:30 | all servers started
+2019-06-25 17:40:45 [INF] scedu_server.go:11 | scedu main's running
+2019-06-25 17:40:45 [INF] my_http_server.go:59 | start http server...
+2019-06-25 17:40:45 [INF] sa_starter.go:48 | starting sa sdk
+2019-06-25 17:40:45 [INF] sa_starter.go:101 | super propeties updated
+2019-06-25 17:40:45 [DBG] ad_server.go:16 | start ad server
+2019-06-25 17:40:45 [DBG] ad_server.go:24 | ready to listen on 9090
+2019-06-25 17:40:45 [INF] dami_server.go:16 | start dami server
+2019-06-25 17:40:45 [INF] dami_server.go:19 | dami service root:/app/
+2019-06-25 17:40:45 [DBG] dami_server.go:25 | ready to listen on 10010
+2019-06-25 17:40:45 [DBG] sa_starter.go:69 | sa initilization finished with url:http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f finished
+2019-06-25 17:40:45 [DBG] my_http_server.go:50 | register all the services...
+2019-06-25 17:40:45 [DBG] my_login_service.go:88 | register login services...
+2019-06-25 17:40:45 [DBG] my_login_service.go:91 | login services registered.
+2019-06-25 17:40:45 [DBG] my_http_server.go:71 | ready to listen on 
+2019-06-25 17:46:58 [DBG] sdt_main.go:47 | loading global config of ./etc/sd_config.json
+2019-06-25 17:46:58 [INF] sdt_main.go:61 | config loading successfully
+2019-06-25 17:46:58 [INF] sdt_main.go:23 | map[ad_front_root:/toutiao/ ad_server_port:9090 ad_service_root:/ad/ dami_front_root:/dami/ dami_server_port:10010 dami_service_root:/app/ logagent_path:./logAgent remote_sensors:http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f scedu_front_root:/scedu/ scedu_service_root:/scd/ scedu_site_port:8080 sensors_project:fujie user_file_path:./user.d]
+2019-06-25 17:46:58 [INF] sdt_main.go:30 | all servers started
+2019-06-25 17:46:58 [INF] scedu_server.go:11 | scedu main's running
+2019-06-25 17:46:58 [INF] my_http_server.go:61 | start http server...
+2019-06-25 17:46:58 [INF] sa_starter.go:48 | starting sa sdk
+2019-06-25 17:46:58 [INF] sa_starter.go:101 | super propeties updated
+2019-06-25 17:46:58 [DBG] sa_starter.go:69 | sa initilization finished with url:http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f finished
+2019-06-25 17:46:58 [DBG] my_http_server.go:52 | register all the services...
+2019-06-25 17:46:58 [DBG] my_login_service.go:88 | register login services...
+2019-06-25 17:46:58 [DBG] my_login_service.go:91 | login services registered.
+2019-06-25 17:46:58 [DBG] ad_server.go:16 | start ad server
+2019-06-25 17:46:58 [INF] dami_server.go:16 | start dami server
+2019-06-25 17:46:58 [INF] dami_server.go:19 | dami service root:/app/
+2019-06-25 17:46:58 [DBG] ad_server.go:24 | ready to listen on 9090
+2019-06-25 17:46:58 [DBG] dami_server.go:25 | ready to listen on 10010
+2019-06-25 17:46:58 [INF] my_http_server.go:71 | /Users/fujie/program/go/src/sd_training
+2019-06-25 17:46:58 [DBG] my_http_server.go:74 | ready to listen on 
+2019-06-25 17:47:40 [DBG] sdt_main.go:47 | loading global config of ./etc/sd_config.json
+2019-06-25 17:47:40 [INF] sdt_main.go:61 | config loading successfully
+2019-06-25 17:47:40 [INF] sdt_main.go:23 | map[ad_front_root:/toutiao/ ad_server_port:9090 ad_service_root:/ad/ dami_front_root:/dami/ dami_server_port:10010 dami_service_root:/app/ logagent_path:./logAgent remote_sensors:http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f scedu_front_root:/scedu/ scedu_server_port:8080 scedu_service_root:/scd/ sensors_project:fujie user_file_path:./user.d]
+2019-06-25 17:47:40 [INF] sdt_main.go:30 | all servers started
+2019-06-25 17:47:40 [INF] scedu_server.go:11 | scedu main's running
+2019-06-25 17:47:40 [INF] my_http_server.go:61 | start http server...
+2019-06-25 17:47:40 [INF] sa_starter.go:48 | starting sa sdk
+2019-06-25 17:47:40 [INF] sa_starter.go:101 | super propeties updated
+2019-06-25 17:47:40 [DBG] sa_starter.go:69 | sa initilization finished with url:http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f finished
+2019-06-25 17:47:40 [DBG] my_http_server.go:52 | register all the services...
+2019-06-25 17:47:40 [DBG] my_login_service.go:88 | register login services...
+2019-06-25 17:47:40 [DBG] ad_server.go:16 | start ad server
+2019-06-25 17:47:40 [DBG] my_login_service.go:91 | login services registered.
+2019-06-25 17:47:40 [DBG] ad_server.go:24 | ready to listen on 9090
+2019-06-25 17:47:40 [INF] dami_server.go:16 | start dami server
+2019-06-25 17:47:40 [INF] dami_server.go:19 | dami service root:/app/
+2019-06-25 17:47:40 [DBG] dami_server.go:25 | ready to listen on 10010
+2019-06-25 17:47:40 [INF] my_http_server.go:71 | /Users/fujie/program/go/src/sd_training
+2019-06-25 17:47:40 [DBG] my_http_server.go:74 | ready to listen on 8080
+2019-06-25 17:47:50 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 17:47:50 [DBG] my_login_service.go:61 | all params:map[params:map[password:23423 username:567898uy6]]
+2019-06-25 17:47:50 [DBG] my_login_service.go:63 | params from login:567898uy6
+2019-06-25 17:47:50 [DBG] my_login_service.go:65 | params from login:23423
+2019-06-25 17:47:50 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 17:47:50 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 17:47:50 [INF] user_manager.go:51 | initing users info..
+2019-06-25 17:47:50 [INF] user_manager.go:84 | old users loaded.0 users exist
+2019-06-25 17:47:50 [INF] user_manager.go:88 | try to login for user:567898uy6 with pwd:23423,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 17:47:50 [INF] sa_starter.go:47 | starting sa sdk
+2019-06-25 17:47:50 [INF] sa_starter.go:100 | super propeties updated
+2019-06-25 17:47:50 [DBG] sa_starter.go:68 | sa initilization finished with url:http://10.19.197.78:8106/sa?project=fujie finished
+2019-06-25 17:47:50 [DBG] sa_starter.go:72 | track sign up to sensors sdk for id:%s16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 17:47:50 [INF] user_manager.go:133 | user login successfully, username:567898uy6
+2019-06-25 17:47:50 [DBG] my_login_service.go:80 | login successful
+2019-06-25 17:47:50 [DBG] my_login_service.go:83 | result to front end:map[login_id:567898uy6 result:success]
+2019-06-25 17:47:50 [INF] user_manager.go:150 | try to write users file
+2019-06-25 17:47:56 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 17:47:56 [DBG] my_login_service.go:61 | all params:map[params:map[password:123r13r username:23r2r23]]
+2019-06-25 17:47:56 [DBG] my_login_service.go:63 | params from login:23r2r23
+2019-06-25 17:47:56 [DBG] my_login_service.go:65 | params from login:123r13r
+2019-06-25 17:47:56 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 17:47:56 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 17:47:56 [INF] user_manager.go:88 | try to login for user:23r2r23 with pwd:123r13r,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 17:47:56 [DBG] sa_starter.go:72 | track sign up to sensors sdk for id:%s16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 17:47:56 [INF] user_manager.go:133 | user login successfully, username:23r2r23
+2019-06-25 17:47:56 [DBG] my_login_service.go:80 | login successful
+2019-06-25 17:47:56 [DBG] my_login_service.go:83 | result to front end:map[login_id:23r2r23 result:success]
+2019-06-25 18:00:33 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 18:00:33 [DBG] my_login_service.go:61 | all params:map[params:map[password:23r23r2 username:783wef3]]
+2019-06-25 18:00:33 [DBG] my_login_service.go:63 | params from login:783wef3
+2019-06-25 18:00:33 [DBG] my_login_service.go:65 | params from login:23r23r2
+2019-06-25 18:00:33 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 18:00:33 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 18:00:33 [INF] user_manager.go:88 | try to login for user:783wef3 with pwd:23r23r2,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 18:00:33 [DBG] sa_starter.go:72 | track sign up to sensors sdk for id:%s16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 18:00:33 [INF] user_manager.go:133 | user login successfully, username:783wef3
+2019-06-25 18:00:33 [DBG] my_login_service.go:80 | login successful
+2019-06-25 18:00:33 [DBG] my_login_service.go:83 | result to front end:map[login_id:783wef3 result:success]
+2019-06-25 18:00:36 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 18:00:36 [DBG] my_login_service.go:61 | all params:map[params:map[password:23r23r23 username:23423r23]]
+2019-06-25 18:00:36 [DBG] my_login_service.go:63 | params from login:23423r23
+2019-06-25 18:00:36 [DBG] my_login_service.go:65 | params from login:23r23r23
+2019-06-25 18:00:36 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 18:00:36 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 18:00:36 [INF] user_manager.go:88 | try to login for user:23423r23 with pwd:23r23r23,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 18:00:36 [DBG] sa_starter.go:72 | track sign up to sensors sdk for id:%s16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 18:00:36 [INF] user_manager.go:133 | user login successfully, username:23423r23
+2019-06-25 18:00:36 [DBG] my_login_service.go:80 | login successful
+2019-06-25 18:00:36 [DBG] my_login_service.go:83 | result to front end:map[login_id:23423r23 result:success]
+2019-06-25 18:01:40 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 18:01:40 [DBG] my_login_service.go:61 | all params:map[params:map[password:qweqweq username:werqwe]]
+2019-06-25 18:01:40 [DBG] my_login_service.go:63 | params from login:werqwe
+2019-06-25 18:01:40 [DBG] my_login_service.go:65 | params from login:qweqweq
+2019-06-25 18:01:40 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 18:01:40 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 18:01:40 [INF] user_manager.go:88 | try to login for user:werqwe with pwd:qweqweq,with firstid:16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 18:01:40 [DBG] sa_starter.go:72 | track sign up to sensors sdk for id:%s16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27
+2019-06-25 18:01:40 [INF] user_manager.go:133 | user login successfully, username:werqwe
+2019-06-25 18:01:40 [DBG] my_login_service.go:80 | login successful
+2019-06-25 18:01:40 [DBG] my_login_service.go:83 | result to front end:map[login_id:werqwe result:success]
+2019-06-25 18:02:27 [DBG] my_login_service.go:45 | user login from front end
+2019-06-25 18:02:27 [DBG] my_login_service.go:61 | all params:map[params:map[password:23r23r username:23e23e]]
+2019-06-25 18:02:27 [DBG] my_login_service.go:63 | params from login:23e23e
+2019-06-25 18:02:27 [DBG] my_login_service.go:65 | params from login:23r23r
+2019-06-25 18:02:27 [DBG] sa_id_util.go:17 | url values:{"distinct_id":"16b8e161fcf48a-0accd87cd1ffb4-37647e03-2073600-16b8e161fd0ca4","$device_id":"16b8da564dbd2-00c725f5635027-37647e03-2073600-16b8da564deb27","props":{"$latest_traffic_source_type":"url的domain解析失败"}}
+2019-06-25 18:02:27 [DBG] sa_id_util.go:29 | key distinct_id value is:16b8e161fcf48a-0accd87cd1ffb4-37647e03-2073600-16b8e161fd0ca4
+2019-06-25 18:02:27 [INF] user_manager.go:88 | try to login for user:23e23e with pwd:23r23r,with firstid:16b8e161fcf48a-0accd87cd1ffb4-37647e03-2073600-16b8e161fd0ca4
+2019-06-25 18:02:27 [DBG] sa_starter.go:72 | track sign up to sensors sdk for id:%s16b8e161fcf48a-0accd87cd1ffb4-37647e03-2073600-16b8e161fd0ca4
+2019-06-25 18:02:27 [INF] user_manager.go:133 | user login successfully, username:23e23e
+2019-06-25 18:02:27 [DBG] my_login_service.go:80 | login successful
+2019-06-25 18:02:27 [DBG] my_login_service.go:83 | result to front end:map[login_id:23e23e result:success]
+2019-06-25 18:30:40 [DBG] sdt_main.go:47 | loading global config of ./etc/sd_config.json
+2019-06-25 18:30:40 [INF] sdt_main.go:61 | config loading successfully
+2019-06-25 18:30:40 [INF] sdt_main.go:23 | map[ad_front_root:/toutiao/ ad_server_port:9090 ad_service_root:/ad/ dami_front_root:/dami/ dami_server_port:10010 dami_service_root:/app/ logagent_path:./logAgent remote_sensors:http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f scedu_front_root:/scedu/ scedu_server_port:8080 scedu_service_root:/scd/ sensors_project:fujie user_file_path:./user.d]
+2019-06-25 18:30:40 [INF] sdt_main.go:30 | all servers started
+2019-06-25 18:30:40 [INF] scedu_server.go:11 | scedu main's running
+2019-06-25 18:30:40 [INF] my_http_server.go:61 | start http server...
+2019-06-25 18:30:40 [INF] sa_starter.go:48 | starting sa sdk
+2019-06-25 18:30:40 [DBG] ad_server.go:16 | start ad server
+2019-06-25 18:30:40 [DBG] ad_server.go:24 | ready to listen on 9090
+2019-06-25 18:30:40 [INF] dami_server.go:16 | start dami server
+2019-06-25 18:30:40 [INF] sa_starter.go:101 | super propeties updated
+2019-06-25 18:30:40 [DBG] sa_starter.go:69 | sa initilization finished with url:http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f finished
+2019-06-25 18:30:40 [DBG] my_http_server.go:52 | register all the services...
+2019-06-25 18:30:40 [DBG] my_login_service.go:88 | register login services...
+2019-06-25 18:30:40 [DBG] dami_server.go:24 | ready to listen on 10010
+2019-06-25 18:30:40 [DBG] my_login_service.go:91 | login services registered.
+2019-06-25 18:30:40 [INF] my_http_server.go:71 | /Users/fujie/program/go/src/sd_training
+2019-06-25 18:30:40 [DBG] my_http_server.go:74 | ready to listen on 8080

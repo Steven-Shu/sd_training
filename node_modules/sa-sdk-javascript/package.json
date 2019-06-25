@@ -1,0 +1,52 @@
+{
+  "_from": "sa-sdk-javascript",
+  "_id": "sa-sdk-javascript@1.13.2",
+  "_inBundle": false,
+  "_integrity": "sha512-mmQpgak8/hEIQX6BvzW31XnJkQmkX19pGpDhSkq6v9yAXrdgu5sWI8IRaoM/ApH2M70Cuvi4kUknWiort3qzzg==",
+  "_location": "/sa-sdk-javascript",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "sa-sdk-javascript",
+    "name": "sa-sdk-javascript",
+    "escapedName": "sa-sdk-javascript",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/sa-sdk-javascript/-/sa-sdk-javascript-1.13.2.tgz",
+  "_shasum": "947f1c49ceec15d638cc7a58ed845adc4a302568",
+  "_spec": "sa-sdk-javascript",
+  "_where": "/Users/fujie/program/go/src/sensors_test",
+  "author": {
+    "name": "shengyonggen"
+  },
+  "bugs": {
+    "url": "https://github.com/sensorsdata/sa-sdk-javascript/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "official sensorsdata javascript sdk",
+  "homepage": "https://github.com/sensorsdata/sa-sdk-javascript#readme",
+  "keywords": [
+    "sensorsdata",
+    "javascript",
+    "sdk"
+  ],
+  "license": "Apache-2.0",
+  "main": "sensorsdata.min.js",
+  "name": "sa-sdk-javascript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sensorsdata/sa-sdk-javascript.git"
+  },
+  "scripts": {
+    "build": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.13.2"
+}

@@ -1,0 +1,15 @@
+{
+	"logagent_path": "./logAgent",
+	"user_file_path": "./user.d",
+	"remote_sensors": "http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f",
+	"sensors_project":"fujie",
+	"dami_server_port":"10010",
+	"ad_server_port":"9090",
+	"scedu_server_port":"8080",
+	"ad_service_root":"/ad/",
+	"ad_front_root":"/toutiao/",
+	"dami_service_root":"/app/",
+	"dami_front_root":"/dami/",
+	"scedu_service_root":"/scd/",
+	"scedu_front_root":"/scedu/"
+}

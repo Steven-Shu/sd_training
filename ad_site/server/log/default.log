@@ -1,0 +1,8 @@
+2019-04-30 16:28:01 [DBG] ad_server.go:18 | start ad server
+2019-04-30 16:28:01 [DBG] ad_server.go:23 | ready to listen on 9090
+2019-04-30 16:31:40 [DBG] ad_server.go:18 | start ad server
+2019-04-30 16:31:40 [DBG] ad_server.go:23 | ready to listen on 9090
+2019-04-30 16:39:50 [DBG] ad_server.go:18 | start ad server
+2019-04-30 16:39:50 [DBG] ad_server.go:23 | ready to listen on 9090
+2019-05-05 16:12:17 [DBG] ad_server.go:18 | start ad server
+2019-05-05 16:12:17 [DBG] ad_server.go:23 | ready to listen on 9090

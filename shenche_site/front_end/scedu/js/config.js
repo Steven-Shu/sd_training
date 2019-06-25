@@ -1,0 +1,1 @@
+var SA_server_URL="http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f"

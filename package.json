@@ -1,0 +1,20 @@
+{
+  "name": "sensors_test",
+  "version": "1.0.0",
+  "description": "sensors test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sensors"
+  ],
+  "author": "fujie",
+  "license": "ISC",
+  "dependencies": {
+    "sa-sdk-javascript": "^1.13.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.30.0"
+  }
+}

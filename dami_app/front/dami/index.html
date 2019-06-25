@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<title>大米应用商店</title>
+<meta name="description" content='大米应用商店帮大米手机和其他安卓手机用户发现最好的安卓应用和游戏，安全可靠，提供免费下载。'/>
+	<meta name="keywords" content="大米市场,大米应用商店"/>
+	<link rel="stylesheet" href="/dami/assets/css/style.min.css"/>
+	<link rel="shortcut icon" href="http://www.xiaomi.com/favicon.ico">
+<script src="/dami/assets/js/sea.js">
+</script>
+<script>seajs.config({alias:{jquery:"ext/jquery-1.11.1.min"}});</script>
+</head>
+<body>
+<div class="header">
+<div class="container">
+<h1>
+<a class="logo" href="/">大米应用商店</a>
+</h1>
+<div class="login">
+<ul>
+<li>
+<a href="https://account.xiaomi.com/pass/register" target="_blank">注册</a>
+</li>
+<li>|</li>
+<li>
+<a href="/login?referer=http%3A%2F%2Fapp.mi.com%2F" id="J_Nologin">登录</a>
+</li>
+</ul>
+</div>
+<div class="site-tab"> <span class="sitetab-mobile sitetab-mobile-active">手机应用</span>
+<a href="/?type=pad" class="sitetab-pad">平板应用</a> </div>
+</div>
+</div>
+<div class="menu">
+<div class="container">
+<div class="menu-con">
+<ul>
+<li>
+<a href="/">首页</a>
+</li>
+<li>
+<a href="/subjectList">专题</a>
+</li>
+<li>
+<a href="http://dev.xiaomi.com/" target="_blank">开发者</a>
+</li>
+<li>
+<a href="https://game.wali.com/" target="_blank">游戏中心</a>
+</li>
+</ul>
+</div>
+<div class="search-form">
+<form method="get" action="/search" id="search" enctype="application/x-www-form-urlencoded">
+<input id="keyWord" type="text" name="keywords" class="keyword" placeholder="搜索应用或游戏"value=""autocomplete="off"/> <button id="searchSubmit" type="submit" value="搜索">
+<i class="icon-search">
+</i>
+</button>
+</form>
+</div>
+</div>
+</div>
+<div class="slide-float" style="position:fixed;bottom:325px;right:30px;width:120px;height:120px;z-index:1100;">
+<img src="http://b1.market.xiaomi.com/download/AppStore/01b3a54ac826cd97dc942876ada43d9d3dc408564AppStore/0db3a45acc28c497d0942a76a514369b346d7ad81" alt="大米游戏中心二维码" width="120" height="120">
+</div>
+<div class="slide-float" style="position:fixed;bottom:265px;right:10px;width:160px;height:229px;z-index:1000;">
+<img src="/assets/img/game-frame.52ee1136.png" alt="大米游戏中心" width="160" height="229">
+</div>
+<div class="slide-float" style="position:fixed;bottom:40px;right:10px;width:160px;height:218px;z-index:1000;">
+<img src="/assets/img/wx-qrcode.5fb29d5a.png" alt="大米应用商店" width='160' height='218'>
+</div>
+<div class="main index-page">
+<div class="container cf">
+<div class="main-con">
+<div class="slide" id="slide"> <a href="/subject/169606" class="slide-mod">
+<img src="http://t4.market.xiaomi.com/thumbnail/jpeg/l750/AppStore/0bf90e50d072f440325a207587fbaf44f3e0c87c1" alt="随时随地，想玩就玩" width="750" height="220">
+</a>  <a href="/subject/169449" class="slide-mod">
+<img src="http://t4.market.mi-img.com/thumbnail/jpeg/l750/AppStore/01d0753ba603691e181c670f5adb40a825f423298" alt="金米奖" width="750" height="220">
+</a>  <a href="/subject/169624" class="slide-mod">
+<img src="http://t1.market.mi-img.com/thumbnail/jpeg/l750/AppStore/0c86644d02e1e420a2a40c31dac17615627faab16" alt="我是大侦探" width="750" height="220">
+</a>  <a href="/subject/169620" class="slide-mod">
+<img src="http://t4.market.xiaomi.com/thumbnail/jpeg/l750/AppStore/09dae4adb62408ff3dbb54734fad6e9ce0b431bc4" alt="又到了恋爱的季节" width="750" height="220">
+</a> </div>
+<div class="applist-wrap">
+<div class="main-h">
+<a class="more" href="/allFeaturedList">查看全部</a>
+</a>
+<h3>精品推荐</h3>
+</div>
+<ul class="applist">
+<li>
+<a href="/dami/assets/apks/app-debug.apk">
+<img data-src="/dami/assets/img/logo.jpg" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="神澈题库" width="72" height="72">
+</a>
+<h5>
+<a href="/dami/assets/apks/app-debug.apk">神澈题库</a>
+</h5>
+<p class="app-desc">
+<a href="/category/11">考王学霸</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.xiaomi.o2o">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/033ac553db6529d77ad3288563519ef99b642d46a" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="大米省钱购" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.xiaomi.o2o">大米省钱购</a>
+</h5>
+<p class="app-desc">
+<a href="/category/9">时尚购物</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.qiyi.android.ticket">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/07e87a498e12549170dc06e37ad7895b22092831a" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="爱奇艺票务" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.qiyi.android.ticket">爱奇艺票务</a>
+</h5>
+<p class="app-desc">
+<a href="/category/4">居家生活</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.shandagames.legendofhonour.mi">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/0d942f5f3c05d4817387a69609f9dbda264b38563" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="光明勇士-杨超越代言" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.shandagames.legendofhonour.mi">光明勇士-杨超越代言</a>
+</h5>
+<p class="app-desc">
+<a href="/category/19">网游RPG</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.ytoxl.ecep">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/04644158dc3b94f0d1a81c4155bf6176246d3d038" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="e城e品" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.ytoxl.ecep">e城e品</a>
+</h5>
+<p class="app-desc">
+<a href="/category/9">时尚购物</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.taiyouxi.ifsanguo.mi">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/05243e5c1e2624d4510f11a7a265ca19bd718360c" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="极无双" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.taiyouxi.ifsanguo.mi">极无双</a>
+</h5>
+<p class="app-desc">
+<a href="/category/19">网游RPG</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.kidplay.bbtgs">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/0905c5c5ad4e9a29ac2864ba1e944b62951426f23" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="宝宝听故事" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.kidplay.bbtgs">宝宝听故事</a>
+</h5>
+<p class="app-desc">
+<a href="/category/12">学习教育</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.kimoo.shizi">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/04fc705a6cef546d71466474c0c69f2a4ea43a48b" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="星娃娃识字" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.kimoo.shizi">星娃娃识字</a>
+</h5>
+<p class="app-desc">
+<a href="/category/12">学习教育</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.qts.customer">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/02605d47279d0495e1ab33b98829c4a95a3d914bd" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="青团社兼职" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.qts.customer">青团社兼职</a>
+</h5>
+<p class="app-desc">
+<a href="/category/10">效率办公</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.wifi.jumpnew.mi">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/0f501576e3e6036390e460ea5810fd5d0f44223af" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="开心跳纸盒" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.wifi.jumpnew.mi">开心跳纸盒</a>
+</h5>
+<p class="app-desc">
+<a href="/category/23">休闲创意</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.sy.mjzz.mi">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/03f4447852dbc3b625fb8bc8f9e2f44c65b40f921" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="秘境之争" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.sy.mjzz.mi">秘境之争</a>
+</h5>
+<p class="app-desc">
+<a href="/category/19">网游RPG</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.tencent.hyrzol">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/0633325b34a3b408b2f57a2abf6bc788011c66cbc" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="火影忍者OL-忍者新世代" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.tencent.hyrzol">火影忍者OL-忍者新世代</a>
+</h5>
+<p class="app-desc">
+<a href="/category/19">网游RPG</a>
+</p>
+</li>
+</ul>
+</div>
+<div class="recomend-cen cf"> <a href="/subject/169616">
+<img src="http://t3.market.mi-img.com/thumbnail/jpeg/l750/AppStore/00ef4427434e8288c451dc42087cc5546f740d1e1" alt="要多快有多块，有多远跑多远" width="176" height="89">
+</a>  <a href="/subject/169615">
+<img src="http://t5.market.mi-img.com/thumbnail/jpeg/l750/AppStore/037c534a7019b469c044a0371529135eda75901ad" alt="要甜度更要有美貌" width="176" height="89">
+</a>  <a href="/subject/169607">
+<img src="http://t1.market.xiaomi.com/thumbnail/jpeg/l750/AppStore/03438c4a8e4d14c672eb55ff1458d9d3698a7bdab" alt="超神和MVP，我全都要" width="176" height="89">
+</a>  <a href="/subject/169611">
+<img src="http://t4.market.mi-img.com/thumbnail/jpeg/l750/AppStore/098af5a5492cf7d8016ff3736c0ced7cb8a42f30b" alt="不管白天黑夜，茉莉一直都在转圈圈" width="176" height="89">
+</a> </div>
+<div class="applist-wrap">
+<div class="main-h">
+<a class="more" href="/allHotList">查看全部</a>
+</a>
+<h3>热门应用</h3>
+</div>
+<ul class="applist">
+<li>
+<a href="/details?id=com.kuaimao.live">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/023e251809c7277831969a343ae87e70d65439074" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="快猫-视频直播" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.kuaimao.live">快猫-视频直播</a>
+</h5>
+<p class="app-desc">
+<a href="/category/27">影音视听</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.sinyee.babybus.holiday">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/05777d55c185c44bc1ca3960cedfb1bb13fc2f07d" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="宝宝假日旅行" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.sinyee.babybus.holiday">宝宝假日旅行</a>
+</h5>
+<p class="app-desc">
+<a href="/category/12">学习教育</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.shouqu.mommypocket">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/0412241330cb09d8ef744847f41255be86e422b04" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="美物清单" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.shouqu.mommypocket">美物清单</a>
+</h5>
+<p class="app-desc">
+<a href="/category/9">时尚购物</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.wandoujia.eyepetizer">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/0239d94c8570246731e5a2bd829e2f7bbd99582ae" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="开眼" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.wandoujia.eyepetizer">开眼</a>
+</h5>
+<p class="app-desc">
+<a href="/category/27">影音视听</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.seca.live">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/0be82478c6953df0723a1c88ba995b15c2d4099dd" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="中国体育" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.seca.live">中国体育</a>
+</h5>
+<p class="app-desc">
+<a href="/category/8">体育运动</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.huiian.timing">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/0a7d5051cbb56442a1d94b1832a2ca083f1e9dde7" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="Timing" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.huiian.timing">Timing</a>
+</h5>
+<p class="app-desc">
+<a href="/category/12">学习教育</a>
+</p>
+</li>
+<li>
+<a href="/details?id=cn.jugame.assistant">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/0cbb984ccade34f9006a9850d19bc090711b15f3f" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="8868手游交易" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=cn.jugame.assistant">8868手游交易</a>
+</h5>
+<p class="app-desc">
+<a href="/category/5">实用工具</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.yinhan.hunter.mi">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/05c0505a1738a401b237e902be7350112158d856e" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="时空猎人" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.yinhan.hunter.mi">时空猎人</a>
+</h5>
+<p class="app-desc">
+<a href="/category/19">网游RPG</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.biku.diary">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/0b26e5e313a4c7b69c765970cca92e1d88042d543" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="青柠手帐" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.biku.diary">青柠手帐</a>
+</h5>
+<p class="app-desc">
+<a href="/category/10">效率办公</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.hero.sm.mi">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/0f63ee5417e4d40513f2a5ed7f3730632fa5f2e02" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="创造与魔法" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.hero.sm.mi">创造与魔法</a>
+</h5>
+<p class="app-desc">
+<a href="/category/19">网游RPG</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.wlqq">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/00e5446c0e1dd6b126db3550f51ce6c14f041b990" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="货车帮司机" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.wlqq">货车帮司机</a>
+</h5>
+<p class="app-desc">
+<a href="/category/5">实用工具</a>
+</p>
+</li>
+<li>
+<a href="/details?id=com.wedobest.shudu">
+<img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/0c73c41426e4b7b7d2581644259339ff92640568f" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="数独" width="72" height="72">
+</a>
+<h5>
+<a href="/details?id=com.wedobest.shudu">数独</a>
+</h5>
+<p class="app-desc">
+<a href="/category/23">休闲创意</a>
+</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sidebar">
+<div class="sidebar-mod">
+<h1 class="sidebar-h orange">快速链接</h1>
+<ul class="sidebar-link">
+<li>
+<a href="/game">
+<i class="icon-handplay">
+</i>游戏</a>
+</li>
+<li>
+<a class="add-padding" href="/subject/115150">
+<i class="icon-apple">
+</i>装机必备</a>
+</li>
+<li>
+<a href="http://zhushou.xiaomi.com" class="mitunes-link" target="_blank" onClick="_gaq.push(['_trackEvent', 'links', 'click', 'mitunes']);">
+<i class="icon-miapp">
+</i>大米应用助手</a>
+</li>
+</ul>
+</div> <div class="sidebar-mod">
+<h1 class="sidebar-h">应用分类</h1>
+<ul class="category-list">
+<li>
+<a  href="/category/15">游戏</a>
+</li>
+<li>
+<a  href="/category/5">实用工具</a>
+</li>
+<li>
+<a  href="/category/27">影音视听</a>
+</li>
+<li>
+<a  href="/category/2">聊天社交</a>
+</li>
+<li>
+<a  href="/category/7">图书阅读</a>
+</li>
+<li>
+<a  href="/category/12">学习教育</a>
+</li>
+<li>
+<a  href="/category/10">效率办公</a>
+</li>
+<li>
+<a  href="/category/9">时尚购物</a>
+</li>
+<li>
+<a  href="/category/4">居家生活</a>
+</li>
+<li>
+<a  href="/category/3">旅行交通</a>
+</li>
+<li>
+<a  href="/category/6">摄影摄像</a>
+</li>
+<li>
+<a  href="/category/14">医疗健康</a>
+</li>
+<li>
+<a  href="/category/8">体育运动</a>
+</li>
+<li>
+<a  href="/category/11">新闻资讯</a>
+</li>
+<li>
+<a  href="/category/13">娱乐消遣</a>
+</li>
+<li>
+<a  href="/category/1">金融理财</a>
+</li>
+</ul>
+</div>
+<div class="sidebar-mod">
+<h1 class="sidebar-h">游戏应用</h1>
+<ul class="category-list">
+<li>
+<a  href="/category/16">战争策略</a>
+</li>
+<li>
+<a  href="/category/17">动作枪战</a>
+</li>
+<li>
+<a  href="/category/18">赛车体育</a>
+</li>
+<li>
+<a  href="/category/19">网游RPG</a>
+</li>
+<li>
+<a  href="/category/20">棋牌桌游</a>
+</li>
+<li>
+<a  href="/category/21">格斗快打</a>
+</li>
+<li>
+<a  href="/category/22">儿童益智</a>
+</li>
+<li>
+<a  href="/category/23">休闲创意</a>
+</li>
+<li>
+<a  href="/category/25">飞行空战</a>
+</li>
+<li>
+<a  href="/category/26">跑酷闯关</a>
+</li>
+<li>
+<a  href="/category/28">塔防迷宫</a>
+</li>
+<li>
+<a  href="/category/29">模拟经营</a>
+</li>
+</ul>
+</div> <div class="sidebar-mod" id="J-accordion">
+<h1 class="sidebar-h"> <a href="/topList" class="more">更多</a> 应用排行 </h1>
+<ul class="ranklist">
+<li class="cf">
+<div class="mod thumb">
+<h3>
+<span class="light" >1</span> <a class="hd" href="/details?id=cn.amazon.mShop.android"> 亚马逊购物 </a>
+</h3>
+<a class="ranklist-img fl" href="/details?id=cn.amazon.mShop.android"> <img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/08eaa4c5e15481dc186f54b6adb7e2c604d42bc1b" width="64" height="64" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="亚马逊购物"/> </a>
+<div class="intro"> <a href="/category/9" class="intro-category">时尚购物</a> <p>大小：32.6M</p>
+<div class="star-empty">
+<div class="star-hover star-5">
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="cf">
+<div class="mod thumb">
+<h3>
+<span class="light" >2</span> <a class="hd" href="/details?id=com.snda.lantern.wifilocating"> WiFi万能钥匙极速版 </a>
+</h3>
+<a class="ranklist-img fl" href="/details?id=com.snda.lantern.wifilocating"> <img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/0fcb45acd60984cc6d0563b78c77ec09a4d409748" width="64" height="64" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="WiFi万能钥匙极速版"/> </a>
+<div class="intro"> <a href="/category/5" class="intro-category">实用工具</a> <p>大小：10.45M</p>
+<div class="star-empty">
+<div class="star-hover star-9">
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="cf">
+<div class="mod thumb">
+<h3>
+<span class="light" >3</span> <a class="hd" href="/details?id=com.tencent.mobileqq"> QQ </a>
+</h3>
+<a class="ranklist-img fl" href="/details?id=com.tencent.mobileqq"> <img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/072725ca573700292b92e636ec126f51ba4429a50" width="64" height="64" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="QQ"/> </a>
+<div class="intro"> <a href="/category/2" class="intro-category">聊天社交</a> <p>大小：68.98M</p>
+<div class="star-empty">
+<div class="star-hover star-4">
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="cf">
+<div class="mod thumb">
+<h3>
+<span >4</span> <a class="hd" href="/details?id=com.ss.android.ugc.aweme"> 抖音短视频 </a>
+</h3>
+<a class="ranklist-img fl" href="/details?id=com.ss.android.ugc.aweme"> <img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/01301f5b8d4a743390c5986c80eacf2e5c3986e8c" width="64" height="64" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="抖音短视频"/> </a>
+<div class="intro"> <a href="/category/27" class="intro-category">影音视听</a> <p>大小：80.47M</p>
+<div class="star-empty">
+<div class="star-hover star-6">
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="cf">
+<div class="mod thumb">
+<h3>
+<span >5</span> <a class="hd" href="/details?id=com.tencent.tmgp.sgame"> 王者荣耀 </a>
+</h3>
+<a class="ranklist-img fl" href="/details?id=com.tencent.tmgp.sgame"> <img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/0eb7aa415046f4cb838cfe5b5d402a5efc34fbb25" width="64" height="64" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="王者荣耀"/> </a>
+<div class="intro"> <a href="/category/19" class="intro-category">网游RPG</a> <p>大小：1,696M</p>
+<div class="star-empty">
+<div class="star-hover star-7">
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="cf">
+<div class="mod thumb">
+<h3>
+<span >6</span> <a class="hd" href="/details?id=com.smile.gifmaker"> 快手 </a>
+</h3>
+<a class="ranklist-img fl" href="/details?id=com.smile.gifmaker"> <img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/063a9a405082c48a41294c726351899287949e95b" width="64" height="64" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="快手"/> </a>
+<div class="intro"> <a href="/category/6" class="intro-category">摄影摄像</a> <p>大小：71.7M</p>
+<div class="star-empty">
+<div class="star-hover star-9">
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="cf">
+<div class="mod thumb">
+<h3>
+<span >7</span> <a class="hd" href="/details?id=com.tencent.mm"> 微信 </a>
+</h3>
+<a class="ranklist-img fl" href="/details?id=com.tencent.mm"> <img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/04404c51f50c543240bf5cfb0f0dea6c6cd1456e3" width="64" height="64" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="微信"/> </a>
+<div class="intro"> <a href="/category/2" class="intro-category">聊天社交</a> <p>大小：101.6M</p>
+<div class="star-empty">
+<div class="star-hover star-5">
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="cf">
+<div class="mod thumb">
+<h3>
+<span >8</span> <a class="hd" href="/details?id=com.tencent.tmgp.pubgmhd"> 绝地求生：刺激战场 </a>
+</h3>
+<a class="ranklist-img fl" href="/details?id=com.tencent.tmgp.pubgmhd"> <img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/0b3064b8e125d3ef52fe0fd182b0e6b96be40ba13" width="64" height="64" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="绝地求生：刺激战场"/> </a>
+<div class="intro"> <a href="/category/17" class="intro-category">动作枪战</a> <p>大小：2,005M</p>
+<div class="star-empty">
+<div class="star-hover star-7">
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="cf">
+<div class="mod thumb">
+<h3>
+<span >9</span> <a class="hd" href="/details?id=com.tencent.qqlive"> 腾讯视频 </a>
+</h3>
+<a class="ranklist-img fl" href="/details?id=com.tencent.qqlive"> <img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/0457a5087d6cbb5e4982c48161c9cbf0243414cfb" width="64" height="64" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="腾讯视频"/> </a>
+<div class="intro"> <a href="/category/27" class="intro-category">影音视听</a> <p>大小：45.4M</p>
+<div class="star-empty">
+<div class="star-hover star-5">
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="cf">
+<div class="mod thumb">
+<h3>
+<span >10</span> <a class="hd" href="/details?id=com.xunmeng.pinduoduo"> 拼多多 </a>
+</h3>
+<a class="ranklist-img fl" href="/details?id=com.xunmeng.pinduoduo"> <img data-src="http://file.market.xiaomi.com/thumbnail/PNG/l62/AppStore/063b75d6276163e0f87a6c7fd2311141ac140c7ca" width="64" height="64" src="http://resource.xiaomi.net/miuimarket/app/lazyload.gif" alt="拼多多"/> </a>
+<div class="intro"> <a href="/category/9" class="intro-category">时尚购物</a> <p>大小：19.12M</p>
+<div class="star-empty">
+<div class="star-hover star-7">
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="container">
+<div class="footer-col">
+<h5>应用分发</h5>
+<ul>
+<li>
+<a href="http://developer.xiaomi.com" target="_blank">开发者提交应用</a>
+</li>
+<li>
+<a href="http://dev.xiaomi.com/doc/cat=3/index.html" target="_blank">应用提交与审核</a>
+</li>
+<li>
+<a href="http://dev.mi.com/doc/" target="_blank">开发者支持文档</a>
+</li>
+<li>
+<a href="http://dev.xiaomi.com/doc/p=4399/index.html" target="_blank">常见问题及解答</a>
+</li>
+</ul>
+</div>
+<div class="footer-col" style=" margin-left: 86px; width: 425px; ">
+<h5>开发者服务</h5>
+<ul>
+<li>
+<a href="http://dev.xiaomi.com/doc/?page_id=1670" target="_blank">大米消息推送服务</a>
+</li>
+<li>
+<a href="http://dev.xiaomi.com/doc/?page_id=1722" target="_blank">应用检查更新SDK</a>
+</li>
+<li>
+<a href="http://dev.xiaomi.com/doc/?page_id=1668" target="_blank">大米帐号接入</a>
+</li>
+<li>
+<a href="http://dev.xiaomi.com/doc/?page_id=2095" target="_blank">结构化数据存储服务</a>
+</li>
+<li>
+<a href="http://dev.xiaomi.com/doc/?page_id=2303" target="_blank">轻应用开放平台</a>
+</li>
+</ul>
+</div>
+<div class="footer-col" style=" width: 114px; ">
+<h5>联系我们</h5>
+<ul>
+<li>
+<a href="http://weibo.com/miappstore" target="_blank">新浪微博</a>
+</li>
+<li>
+<a href="#" id="J_modalWeixin" target="_blank">微信公众平台</a>
+</li>
+<li>
+<a href="http://dev.xiaomi.com/doc/p=3039/index.html" target="_blank">商务合作</a>
+</li>
+<li>
+<a href="http://www.miui.com/type-38-284.html" target="_blank">应用商店用户论坛</a>
+</li>
+</ul>
+</div>
+<p class="footer-p footer-first-p" style="margin-left:0;">
+<span>违法和不良信息举报电话：18501301238</span> <span>举报邮箱：csc-report@xiaomi.com</span> <span>中国互联网违法和不良信息举报中心：www.12377.cn</span>
+</p>
+<a href="http://report.12377.cn:13225/toreportinputNormal_anis.do" style="position: absolute;bottom: -4px;right: 121px;display: block;">
+<img src="http://t1.market.xiaomi.com/thumbnail/webp/l90q80/AppStore/0ac4e4f99fa21e1c2a9265de351c897016b43a852">
+</a>
+<p class="footer-p">
+<a href="http://www.miibeian.gov.cn/" target="_blank">京ICP10046444号</a> <span>京公网安备11010802020134号</span> <span>MIUI.com All Rights Reserved 2019
+ </span> <span class="footer-img icon-inva">
+</span> <span class="footer-img icon-12377">
+<a href="http://jubao.12377.cn:13225/reportinputcommon.do" target="_blank">
+</a>
+</span>
+</p>
+</div>
+</div>
+<div class="modal" id="dialog-login" style="display:none;">
+<div class="modal-header">
+<h3 class="dialog-title">请登录</h3>
+</div>
+<div class="modal-body">
+<p>您需要登陆大米帐号才可以安装应用到手机</p>
+</div>
+<div class="modal-footer">
+<a href="#" class="modal-btn" id="J-login">立即登录</a> <a href="#" class="modal-btn btn-gray" data-dismiss="modal">取消</a>
+</div>
+</div>
+<div class="modal" id="dialog-sucessful" style="display:none;">
+<div class="modal-header">
+<h3 class="dialog-title">推送成功</h3>
+</div>
+<div class="modal-body">
+<p>已经将“新浪微博”推送到您的手机请在手机上完成安装</p>
+</div>
+<div class="modal-footer">
+<a href="#" class="modal-btn" id="J-autoclose" data-dismiss="modal">知道了</a>
+</div>
+</div>
+<div class="modal modal-wx" id="J_dialogModalWx" style=" display:none;">
+<div class="modal-header">
+<h3 class="dialog-title">
+</h3>
+</div>
+<img src="http://resource.xiaomi.net/miuimarket/app/wx2dcode.png" width="540" height="520" alt="应用商店微信二维码">
+</div>
+<script src="/dami/assets/js/main.min.js">
+</script>
+<script>seajs.use("assets/js/main");</script>
+<script>var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-32956769-1"]);_gaq.push(["_addOrganic","baidu","word"]);_gaq.push(["_addOrganic","m.baidu","word"]);_gaq.push(["_addOrganic","wap.baidu","word"]);_gaq.push(["_addOrganic","baidu","kw"]);_gaq.push(["_addOrganic","baidu","wd"]);_gaq.push(["_addOrganic","baidu","q1"]);_gaq.push(["_addOrganic","baidu","q2"]);_gaq.push(["_addOrganic","baidu","q3"]);_gaq.push(["_addOrganic","baidu","q4"]);_gaq.push(["_addOrganic","baidu","q5"]);_gaq.push(["_addOrganic","baidu","q6"]);_gaq.push(["_addOrganic","soso","w"]);_gaq.push(["_addOrganic","vnet","kw"]);_gaq.push(["_addOrganic","sogou","query"]);_gaq.push(["_addOrganic","youdao","q"]);_gaq.push(["_addOrganic","so.360.cn","q"]);_gaq.push(["_addOrganic","360so","q"]);_gaq.push(["_addOrganic","360sou","q"]);_gaq.push(["_setDomainName","xiaomi.com"]);_gaq.push(["_setDomainName","mi.com"]);_gaq.push(["_trackPageview"]);(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="http://static.xiaomi.net/93494/scripts/market/app/ga.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script>
+</body>
+</html>

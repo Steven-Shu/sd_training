@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>神澈教育|在线题库 </title>
+<meta name="keywords" content="题库网，在线组卷题库，中学题库，考试题库，试题解析，" />
+<meta name="description" content="面向全国初中、高中学生老师，提供试题解析答案检索，为在线组卷系统提供丰富的试题，涵盖高中各科目，高考试题及答案，初中各学科试题和答案，中考模拟试题解析 " />
+<script src="./js/config.js" ></script>
+<script>
+    (function(para) {
+      var p = para.sdk_url, n = para.name, w = window, d = document, s = 'script',x = null,y = null;
+      if(typeof(w['sensorsDataAnalytic201505']) !== 'undefined') {
+          return false;
+      }
+      w['sensorsDataAnalytic201505'] = n;
+      w[n] = w[n] || function(a) {return function() {(w[n]._q = w[n]._q || []).push([a, arguments]);}};
+      var ifs = ['track','quick','register','registerPage','registerOnce','clearAllRegister','trackSignup', 'trackAbtest', 'setProfile','setOnceProfile','appendProfile', 'incrementProfile', 'deleteProfile', 'unsetProfile', 'identify','login','logout','trackLink','clearAllRegister'];
+      for (var i = 0; i < ifs.length; i++) {
+        w[n][ifs[i]] = w[n].call(null, ifs[i]);
+      }
+      if (!w[n]._t) {
+        x = d.createElement(s), y = d.getElementsByTagName(s)[0];
+        x.async = 1;
+        x.src = p;
+        y.parentNode.insertBefore(x, y);
+        w[n].para = para;
+      }
+    })({
+          sdk_url: './js/sensorsdata.min.js',
+          name: 'sensors',
+
+          //server_url:'http://10.19.197.78:8106/sa?project=fujie',
+          server_url:SA_server_URL,
+          //heatmap_url神策分析中点击分析及触达分析功能代码，代码生成工具会自动生成。如果神策代码中 `sensorsdata.min.js` 版本是 1.9.1 及以上版本，这个参数必须配置，低于此版本不需要配置。
+          heatmap_url: "./js/heatmap.min.js",
+          //web_url 神策分析中点击分析及触达分析功能会用到此地址，代码生成工具会自动生成。如果神策后台版本及 `sensorsdata.min.js` 均是 1.10 及以上版本，这个参数不需要配置。
+          web_url:"http://test-hechun.datasink.sensorsdata.cn/sa?project=fujie&token=d28b875ed9ac268f",
+          //referer_domain:"www.baidu.com",
+          heatmap: {
+             //是否开启点击图，默认 default 表示开启，自动采集 $WebClick 事件，可以设置 'not_collect' 表示关闭
+             //需要 JSSDK 版本号大于 1.7
+             clickmap:'default',
+             //是否开启触达注意力图，默认 default 表示开启，自动采集 $WebStay 事件，可以设置 'not_collect' 表示关闭
+             //需要 JSSDK 版本号大于 1.9.1
+             scroll_notice_map:'not_collect'
+          },
+          use_app_track: true,
+          is_track_latest: {
+            //是否采集$latest_utm最近一次广告系列相关参数，默认值true
+            utm:true,
+            //是否采集$latest_traffic_source_type最近一次流量来源类型，默认值true
+            traffic_source_type:true,
+            //是否采集$latest_search_keyword最近一次搜索引擎关键字，默认值true
+            search_keyword:false,
+            //是否采集$latest_referrer最近一次前向地址，默认值true
+            referrer:false,
+            //是否采集$latest_referrer_host最近一次前向地址，默认值true
+            referrer_host:false,
+            //是否采集$latest_landing_page最近一次落地页地址，默认值false
+            landing_page:false,
+          },
+         scrollmap:{
+             collect_url: function(){
+        //如果只采集首页
+              if(location.href === 'xxx.com/index.html' || location.href === 'xxx.com/'){
+                  return true;
+            }
+          }},
+          send_type:'ajax'
+        });
+        sensors.registerPage({currentPage:location.href,referPage:document.referer});
+        sensors.quick('autoTrack'); //神策系统必须是1.4最新版及以上
+    </script>
+    <script src="./js/jquery-3.4.1.min.js"></script>>
+<link rel="stylesheet" type="text/css" href="/scedu/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/scedu/css/tiku.css" />
+<link rel="stylesheet" type="text/css" href="/scedu/css/treeview.css" />
+    
+ </head> 
+
+<body>
+<div id="topbar">
+<div class="content">
+<span class="fl">欢迎来到神澈教育题库中心！</span>
+<span class="fr"><a href="//www.21cnjy.com" class="toplink" target='_blank'>神澈教育</a><a href="//tiku.21cnjy.com">在线题库首页</a></span><a href="/scedu/login.html">登录</a></span>
+<span class="cl"></span>
+</div>
+</div>
+<div id="logo_area">
+<a href="//tiku.21cnjy.com"><img src="/scedu/images/logo.jpg" height="30" width="30" alt="神澈教育网——题库" title="神澈教育网——题库"/></a>
+<div class="search_box">
+    <div  class="searchingbar_sub">
+<h4>试题<i></i></h4>
+  <ul class="slide_ul">
+    <li>试题</li>
+<li>试卷</li>
+  </ul>
+ </div>
+<form id="searchform" action="/questions.html?mod=search" method="post">
+<input type="text" class="search_text search_txt" name="search" id="searchtxt" onkeydown="javascript:if (event.keyCode==13) $('.search_btn').click();" autocomplete='off'  />
+<input type="button" class="search_btn"/>
+ </form>
+</div>
+</div>
+<div id="nav">
+<div class="content">
+<ul>
+<li
+ class='current' ><a href="/">首页</a></li>
+<li
+><a href="/questions.html?mod=quest&amp;channel=2&amp;xd=2">初中试题</a></li>
+<li
+><a href="/questions.html?mod=quest&amp;channel=2&amp;xd=3">高中试题</a></li>
+
+<li
+><a href="/questions.html?mod=paper&amp;channel=2&amp;xd=2">初中试卷</a></li>
+<li
+><a href="/questions.html?mod=paper&amp;channel=2&amp;xd=3">高中试卷</a></li>
+</ul>
+<!--p>共有<i> </i>套试卷，<i> </i>道试题</p-->
+<!--span style="">今日更新<i>  </i>套</span></p-->
+</div>
+</div>
+<script>
+$(document).ready(function() {
+     $('.search_txt').focus(function(){
+    if($(this).val()=='请输入您的搜索内容...') $(this).val('');
+ })  
+  	 $('.search_txt').focusout(function(){
+   if($(this).val()==''){
+     $(this).val("请输入您的搜索内容...");
+   }
+ }) 
+ 
+ 
+ /*下拉搜索*/
+ $('.slide_ul li').click(function(){
+var txt=$(this).text()+"<i></i>";
+    $(this).parent('ul').siblings('h4').html(txt);
+$('.slide_ul').fadeOut("fast");
+ });
+ $('.searchingbar_sub').hover(function(){
+        $(this).find(".slide_ul").css("z-index","999");
+   $(this).find(".slide_ul").fadeIn("fast");
+   $(this).find("i").css({"border-color":"#fff #fff #bc0011 #fff","top":"7px"});
+ },function(){
+     $(this).find(".slide_ul").css("z-index","999");
+   $(this).find(".slide_ul").fadeOut("fast");
+   $(this).find("i").css({"border-color":"#bc0011 #fff #fff #fff","top":"13px"});
+ })
+ $('.search_btn').click(function(){
+var val=$('.searchingbar_sub h4').text();
+ 	   if(val=="试题"){
+     checkform(1);
+   }else{
+     checkform(2);
+   }
+ })
+ 
+     var wid=$(document).width();
+     if(wid<=1100){
+         $('.junior_ul').css('margin-left','100px');
+         $('.senior_ul').css('margin-left','60px');
+     }
+ $('.papersname_list li:odd').css('background','#e2edf5');
+
+});
+ 
+$('.select_ul li').click(function(){
+    $(this).addClass('current').siblings().removeClass('current');
+});      
+function checkform(type){
+searchtxt = document.getElementById("searchtxt").value;
+if(searchtxt==''||searchtxt==undefined || searchtxt=='请输入您的搜索内容...'){
+alert('请输入搜索的关键字');
+document.getElementById("searchtxt").focus();
+return false;
+}
+document.getElementById("searchform").action = "/questions.html?mod=search"+"&value="+searchtxt+"&type="+type;
+document.getElementById("searchform").submit();
+}
+
+</script>
+<div class="content mb10"><div class="" id="all_980_90_a"></div></div>
+
+<div class="content">
+<div id="mainbar">
+<div class="test">
+<h1><b>初中试题</b></h1>
+<div class="test_container">
+<p><a href="questions.html?mod=list&amp;channel=2&amp;xd=2">语文</a><a href="questions.html?mod=list&amp;channel=3&amp;xd=2">数学</a><a href="questions.html?mod=list&amp;channel=4&amp;xd=2">英语</a><a href="questions.html?mod=list&amp;channel=6&amp;xd=2">物理</a><a href="questions.html?mod=list&amp;channel=7&amp;xd=2">化学</a><a href="questions.html?mod=list&amp;channel=8&amp;xd=2">历史</a><a href="questions.html?mod=list&amp;channel=9&amp;xd=2">政治思品</a><a href="questions.html?mod=list&amp;channel=10&amp;xd=2">地理</a><a href="questions.html?mod=list&amp;channel=11&amp;xd=2">生物</a></p>
+</div>
+</div>
+
+<div class="test">
+<h1><b>高中试题</b></h1>
+<div class="test_container">
+<p><a href="questions.html?mod=list&amp;channel=2&amp;xd=3">语文</a><a href="questions.html?mod=list&amp;channel=3&amp;xd=3">数学</a><a href="questions.html?mod=list&amp;channel=4&amp;xd=3">英语</a><a href="questions.html?mod=list&amp;channel=6&amp;xd=3">物理</a><a href="questions.html?mod=list&amp;channel=7&amp;xd=3">化学</a><a href="questions.html?mod=list&amp;channel=8&amp;xd=3">历史</a><a href="questions.html?mod=list&amp;channel=9&amp;xd=3">政治思品</a><a href="questions.html?mod=list&amp;channel=10&amp;xd=3">地理</a><a href="questions.html?mod=list&amp;channel=11&amp;xd=3">生物</a></p>
+</div>
+</div>
+<div class="test">
+<h1><a href="questions.html?mod=paper&amp;channel=2&amp;xd=2" target="_blank" class="more">更多>></a>
+<b>初中试卷</b>
+</h1>
+<div class="test_container">
+<h4>初一试卷</h4>
+<p><a href="questions.html?mod=paper&amp;channel=2&amp;g=21">语文</a><a href="questions.html?mod=paper&amp;channel=3&amp;g=21">数学</a><a href="questions.html?mod=paper&amp;channel=4&amp;g=21">英语</a><a href="questions.html?mod=paper&amp;channel=6&amp;g=21">物理</a><a href="questions.html?mod=paper&amp;channel=7&amp;g=21">化学</a><a href="questions.html?mod=paper&amp;channel=8&amp;g=21">历史</a><a href="questions.html?mod=paper&amp;channel=9&amp;g=21">政治思品</a><a href="questions.html?mod=paper&amp;channel=10&amp;g=21">地理</a><a href="questions.html?mod=paper&amp;channel=11&amp;g=21">生物</a></p>
+<h4>初二试卷</h4>
+<p><a href="questions.html?mod=paper&amp;channel=2&amp;g=22">语文</a><a href="questions.html?mod=paper&amp;channel=3&amp;g=22">数学</a><a href="questions.html?mod=paper&amp;channel=4&amp;g=22">英语</a><a href="questions.html?mod=paper&amp;channel=6&amp;g=22">物理</a><a href="questions.html?mod=paper&amp;channel=7&amp;g=22">化学</a><a href="questions.html?mod=paper&amp;channel=8&amp;g=22">历史</a><a href="questions.html?mod=paper&amp;channel=9&amp;g=22">政治思品</a><a href="questions.html?mod=paper&amp;channel=10&amp;g=22">地理</a><a href="questions.html?mod=paper&amp;channel=11&amp;g=22">生物</a></p>
+<h4>初三试卷</h4>
+<p><a href="questions.html?mod=paper&amp;channel=2&amp;g=23">语文</a><a href="questions.html?mod=paper&amp;channel=3&amp;g=23">数学</a><a href="questions.html?mod=paper&amp;channel=4&amp;g=23">英语</a><a href="questions.html?mod=paper&amp;channel=6&amp;g=23">物理</a><a href="questions.html?mod=paper&amp;channel=7&amp;g=23">化学</a><a href="questions.html?mod=paper&amp;channel=8&amp;g=23">历史</a><a href="questions.html?mod=paper&amp;channel=9&amp;g=23">政治思品</a><a href="questions.html?mod=paper&amp;channel=10&amp;g=23">地理</a><a href="questions.html?mod=paper&amp;channel=11&amp;g=23">生物</a></p>
+</div>
+</div>
+
+<div class="test">
+<h1><a href="questions.html?mod=paper&amp;channel=2&amp;xd=3" target="_blank" class="more">更多>></a>
+<b>高中试卷</b>
+</h1>
+<div class="test_container">
+<h4>高一试卷</h4>
+<p><a href="questions.html?mod=paper&amp;channel=2&amp;g=31">语文</a><a href="questions.html?mod=paper&amp;channel=3&amp;g=31">数学</a><a href="questions.html?mod=paper&amp;channel=4&amp;g=31">英语</a><a href="questions.html?mod=paper&amp;channel=6&amp;g=31">物理</a><a href="questions.html?mod=paper&amp;channel=7&amp;g=31">化学</a><a href="questions.html?mod=paper&amp;channel=8&amp;g=31">历史</a><a href="questions.html?mod=paper&amp;channel=9&amp;g=31">政治思品</a><a href="questions.html?mod=paper&amp;channel=10&amp;g=31">地理</a><a href="questions.html?mod=paper&amp;channel=11&amp;g=31">生物</a></p>
+<h4>高二试卷</h4>
+<p><a href="questions.html?mod=paper&amp;channel=2&amp;g=32">语文</a><a href="questions.html?mod=paper&amp;channel=3&amp;g=32">数学</a><a href="questions.html?mod=paper&amp;channel=4&amp;g=32">英语</a><a href="questions.html?mod=paper&amp;channel=6&amp;g=32">物理</a><a href="questions.html?mod=paper&amp;channel=7&amp;g=32">化学</a><a href="questions.html?mod=paper&amp;channel=8&amp;g=32">历史</a><a href="questions.html?mod=paper&amp;channel=9&amp;g=32">政治思品</a><a href="questions.html?mod=paper&amp;channel=10&amp;g=32">地理</a><a href="questions.html?mod=paper&amp;channel=11&amp;g=32">生物</a></p>
+<h4>高三试卷</h4>
+<p><a href="questions.html?mod=paper&amp;channel=2&amp;g=33">语文</a><a href="questions.html?mod=paper&amp;channel=3&amp;g=33">数学</a><a href="questions.html?mod=paper&amp;channel=4&amp;g=33">英语</a><a href="questions.html?mod=paper&amp;channel=6&amp;g=33">物理</a><a href="questions.html?mod=paper&amp;channel=7&amp;g=33">化学</a><a href="questions.html?mod=paper&amp;channel=8&amp;g=33">历史</a><a href="questions.html?mod=paper&amp;channel=9&amp;g=33">政治思品</a><a href="questions.html?mod=paper&amp;channel=10&amp;g=33">地理</a><a href="questions.html?mod=paper&amp;channel=11&amp;g=33">生物</a></p>
+</div>
+</div>
+</div>
+<div id="sidebar">
+
+</div>
+<div class="cl"></div>
+</div><div id="footer">
+<div class="content">
+<div class="shengming">
+<p><a href="/scedu/about/mianze.html" target="_blank">免责声明</a> <a href="/scedu/about/about.html" target="_blank">联系我们</a></p>
+<p>地址：北京市海淀区知春路量子芯座大厦 11 楼 N1 小角落 邮编：100000
+© 2004-2016 神澈教育网 </p>
+</div>
+<div class="information">
+<p>工作时间: AM9:00-PM6:00 </p>
+<p>服务电话: 10086 
+<script src="//s25.cnzz.com/stat.php?id=1840905&web_id=1840905&show=pic1" type="text/javascript" language="JavaScript"></script> </p>
+</div>
+</div>
+<div class="cl"></div>
+<div class="links">
+<div class="content">
+<p><b>友情链接：</b><div style="float:right;width:935px;"><a href="http://zhongkao.21cnjy.com/"  target="_blank">21中考资源网</a>&nbsp;<a href="http://www.kt5u.com/"  target="_blank">课堂无忧</a>&nbsp;<a href="http://gaokao.21cnjy.com/"  target="_blank">21高考资源网</a>&nbsp;<a href="http://d1kt.cn/"  target="_blank">第一课堂</a>&nbsp;<a href="http://www.xuexiaozhaopin.com/"  target="_blank">学校招聘</a>&nbsp;</div></p>
+</div>
+</div>
+   
+  <br/>
+</div>
+</div>
+</body>
+</html>
+ <!--底部加载内容-->
+ 
